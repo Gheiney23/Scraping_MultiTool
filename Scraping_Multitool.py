@@ -391,8 +391,8 @@ def make_img_window():
     img_layout = [[sg.Text("Image Scraper Tool")],
                   [sg.Text("Be sure to close the Excel file being used BEFORE running the tool.", text_color='red', font=('Arial Bold', 10))],
                   [sg.Text('Please enter Sku(MFG Number) list.'), sg.InputText(key='-SKU-', pad=(0,0))],
-                  [sg.Text('Please enter Build Unique ID list.'), sg.InputText(key='-UID-', pad=(0,0))],
-                  [sg.Text('Please enter Build Family ID list.'), sg.InputText(key='-FID-', pad=(0,0))],
+                  [sg.Text('Please enter ID1 list.'), sg.InputText(key='-UID-', pad=(0,0))],
+                  [sg.Text('Please enter ID2 list.'), sg.InputText(key='-FID-', pad=(0,0))],
                   [sg.Text('Please enter the absolute path of Excel file to use.'), sg.InputText(key='-E_NAME-')],
                   [sg.Button("Run"), sg.Button("Exit")]]
 
@@ -428,8 +428,8 @@ def make_bullet_window():
     bullet_layout = [[sg.Text("Bullet Scraper Tool")],
                         [sg.Text("Be sure to close the Excel file being used BEFORE running the tool.", text_color='red', font=('Arial Bold', 10))],
                         [sg.Text('Please enter Sku(MFG Number) list.'), sg.InputText(key='-SKU-', pad=(0,0))],
-                        [sg.Text('Please enter Build Unique ID list.'), sg.InputText(key='-UID-', pad=(0,0))],
-                        [sg.Text('Please enter Build Family ID list.'), sg.InputText(key='-FID-', pad=(0,0))],
+                        [sg.Text('Please enter ID1 list.'), sg.InputText(key='-UID-', pad=(0,0))],
+                        [sg.Text('Please enter ID2 list.'), sg.InputText(key='-FID-', pad=(0,0))],
                         [sg.Text('Please enter the absolute path of Excel file to use.'), sg.InputText(key='-E_NAME-')],
                         [sg.Button("Run"), sg.Button("Exit")]]
     
